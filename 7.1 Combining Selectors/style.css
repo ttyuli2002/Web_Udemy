@@ -1,1 +1,34 @@
 /* Write your code here: */
+
+/* group */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* direct children (only 1 level down) */
+.box > p {
+    color: firebrick;
+}
+
+/* descendent (no matter how many level down) */
+.box li {
+    color: blue;
+}
+
+/* chaining = Apply where ALL selectors are true
+ * SelectorSelector {
+ * color: green;
+ *}
+*/
+li.done {
+    color: seagreen;
+}
+
+/* combining combiners 
+ * Selector SelectorSelector {
+ * font-size: 2 rem
+ *}
+*/
+ul p.done {
+    font-size: 0.5rem;
+}
