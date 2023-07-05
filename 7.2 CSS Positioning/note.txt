@@ -7,9 +7,13 @@ position:
 2. absolute:
     The element is positioned relative to its nearest positioned (not static) ancestor element
     If no ancestor element, then position at left upper corner
+    - Has "Z-index", shows which one layers on top of which. 
+    - default --> z-index: 0;
+    - If prefers element in bottom, can do z-index: -1;
+    - If use position: absolute, even with no z-index, the element would go on top of the rest elements.
 
 3. fixed:
-    The element is positioned relative to the browser window
+    The element is positioned relative to the left upper corner browser window
     will not move when scrolling up and down
 
 4. relative:
