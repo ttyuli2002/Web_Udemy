@@ -5,7 +5,7 @@ position:
     does not move the element, top/bottom/left/right grayed out
 
 2. absolute:
-    The element is positioned relative to its first positioned (not static) ancestor element
+    The element is positioned relative to its nearest positioned (not static) ancestor element
     If no ancestor element, then position at left upper corner
 
 3. fixed:
