@@ -10,7 +10,7 @@ position:
     - Has "Z-index", shows which one layers on top of which. 
     - default --> z-index: 0;
     - If prefers element in bottom, can do z-index: -1;
-    - If use position: absolute, even with no z-index, the element would go on top of the rest elements.
+    - If use position: absolute, even with z-index: 0, the element would go on top of the rest elements.
 
 3. fixed:
     The element is positioned relative to the left upper corner browser window
